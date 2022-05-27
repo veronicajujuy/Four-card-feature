@@ -32,7 +32,7 @@ body {
       width: 200px;
       height: 150px;
       border-radius: 5px;
-      padding: 10px;
+      padding: 10px 25px;
       box-shadow: 2px 2px 25px hsla(234, 12%, 34%, 0.572);
   }
   
@@ -55,6 +55,23 @@ body {
     border-top: solid 5px hsl(212, 86%, 64%);
     grid-area: four;
   }
+
+  .card-title {
+      font-weight: 600;
+      font-size: 1rem;
+  }
+  .card-body {
+    font-weight: 300;
+    font-size: 0.65rem;
+    color: hsl(234, 12%, 34%);
+  }
+
+  .card-img {
+      height: 40px;
+      padding-left: 155px;
+      padding-top: 15px;
+  }
+
   @media (min-width: 400px) {
     main {
     margin: 0 auto;
