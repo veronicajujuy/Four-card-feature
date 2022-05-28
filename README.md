@@ -66,6 +66,7 @@ I learned how to use css grid
     grid-template-rows: 1fr 1fr 1fr 1fr;
     inline-size: 80%;
   }
+}
 ```
 
 
